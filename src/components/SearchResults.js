@@ -60,7 +60,7 @@ const SearchResults = ({ addToCart }) => {
       <div className="contact-info">
         <h3>Contact Us</h3>
         <p>Address: 123 Food Street, Food City, FC 12345</p>
-        <p>Phone: +1 (234) 567-8901</p>
+        <p>Phone: +7 (234) 567-8901</p>
         <p>Email: contact@foodmenu.com</p>
       </div>
     </div>

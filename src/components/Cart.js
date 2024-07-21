@@ -126,16 +126,6 @@ const Cart = () => {
                   <option value="delivery">Delivery</option>
                 </select>
               </label>
-              <label>
-                Payment Option:
-                <select
-                  value={paymentOption}
-                  onChange={(e) => setPaymentOption(e.target.value)}
-                >
-                  <option value="cash">Cash</option>
-                  <option value="card">Card</option>
-                </select>
-              </label>
               {deliveryOption === 'delivery' && (
                 <label>
                   Room Number:
@@ -147,13 +137,31 @@ const Cart = () => {
                   />
                 </label>
               )}
+              <label>
+                Payment Option:
+                <select
+                  value={paymentOption}
+                  onChange={(e) => setPaymentOption(e.target.value)}
+                >
+                  <option value="cash">Cash</option>
+                  <option value="card">Send: +7(xxx)(xxx)(xxx)</option>
+                </select>
+              </label>
               <button type="submit" disabled={loading}>Submit Order</button>
               {error && <p className={`error ${error ? 'shake' : ''}`}>{error}</p>}
             </form>
           </div>
         </div>
+        
       )}
+       <div className="contact-info">
+        <h3>Contact Us</h3>
+        <p>Address: 123 Food Street, Food City, FC 12345</p>
+        <p>Phone: +7 (234) 567-8901</p>
+        <p>Email: contact@foodmenu.com</p>
+      </div>
     </div>
+    
   );
 };
 
