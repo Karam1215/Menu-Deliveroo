@@ -1,0 +1,78 @@
+/* styles/SearchResults.css */
+
+.menu {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.menu h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product .description {
+  margin-top: 10px;
+}
+
+.product h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.product p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.product button {
+  background-color: #000000;
+  border: 2px solid #333;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.product button:hover {
+  background-color: #fff;
+  color: #000000;
+}
+
+.contact-info {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact-info h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #666;
+}
