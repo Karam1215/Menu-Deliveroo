@@ -1,4 +1,6 @@
-# Deliveroo
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Deliveroo👋;" />
+</h1>
 
 This project is a web application designed to facilitate the delivery of menu items to a dormitory. It features a backend service developed with Java Spring Boot and a frontend application built using React. The project includes database integration with PostgreSQL and aims to provide a seamless user experience for ordering food items.
 
