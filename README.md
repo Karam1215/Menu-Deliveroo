@@ -82,7 +82,9 @@ The Dormitory Menu Delivery System was developed as part of a practical training
 ## Web-site Structure
 
 Here is a diagram illustrating the structure of the web-site: 
+
 <p>[Click here to view the diagram without messing content!](Diagrams/Deliveroo.drawio.png)</p>
+
 ![Web-site Structure](Diagrams/Delivero.svg)
 
 ---------------------------------------------------------------------------------------------------------
